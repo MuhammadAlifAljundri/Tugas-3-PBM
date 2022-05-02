@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundtugas3"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    //NIM
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#373737"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM"
+            android:textColor="#E94F68"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_marginTop="-10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            app:backgroundTint="#F8526D"/>
+    </LinearLayout>
+
+    //Nama
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#373737"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="#E94F68"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="-10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            app:backgroundTint="#F8526D"/>
+    </LinearLayout>
+
+    //Jurusan
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#373737"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jurusan"
+            android:textColor="#E94F68"/>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_marginTop="-10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            app:backgroundTint="#F8526D"/>
+    </LinearLayout>
+
+    //button tambah mahasiswa
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInsert"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Mahasiswa"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        app:cornerRadius="15dp"
+        android:backgroundTint="#F8526D"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+
+    //button list mahasiswa
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnView"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Mahasiswa"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        app:cornerRadius="15dp"
+        android:backgroundTint="#F8526D"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+
+    //button hapus mahasiswa
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDelete"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus mahasiswa"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        app:cornerRadius="15dp"
+        android:backgroundTint="#F8526D"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>
